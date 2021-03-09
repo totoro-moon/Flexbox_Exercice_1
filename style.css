@@ -1,0 +1,21 @@
+.round{
+  margin-top: 1%;
+  width: 10%;
+  height: 100px;
+  background-color: lightgrey;
+  border-radius: 50%;
+}
+.container{
+  /*permet de disposer les elements en flexbox*/
+  display:flex;
+  /* axe horizontal = espace occupé par les elements flex sur son axe. flex-end en partant de la fin de sa rangé */
+  justify-content: flex-end;
+}
+/*
+.square{
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 75%;
+  height: 100px;
+  background-color: lightgreen;
+}
